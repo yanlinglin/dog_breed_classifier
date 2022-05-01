@@ -60,3 +60,5 @@ In the project, a built-from-scratch CNN model, three transfer-learning based mo
 ## Acknowledgements. 
 This project is provided by Udacity Data Scientist Nanodegree. Some parts of this readme file is from the Udacity project description and code. 
 
+The idea to create functions and run mutliple models is inspired from 
+https://github.com/pcmaldonado/Dog_Breed_Classification/blob/main/dog_breed_classification.ipynb
