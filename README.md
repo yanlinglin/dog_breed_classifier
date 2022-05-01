@@ -35,7 +35,12 @@ cd dog-project
 
 ## The libraries used
 
-This project used Keras extensively for creating the CNN. It also used sklearn for dataset loading, OpenCV and PIL for image work, Matplotlib for viewing the images. OpenCV's Haar feature-based cascade classifiers is introduced to detect human faces in images. 
+This project used Keras extensively for creating the CNN. The following packages are used:
+- numpy: handling training, validation and testing data;
+- matplotlib: plot images; 
+- pandas: showing the class distribution of provided data;
+- cv2: processing and showing images 
+- tqdm: showing progress bar.
 
 
 ## files in the repository with a small description of each:
@@ -45,13 +50,13 @@ This project used Keras extensively for creating the CNN. It also used sklearn f
 
 ## A summary of the results of the analysis
 In the project, a built-from-scratch CNN model, three transfer-learning based models based on VGG16, VGG19 and ResNet 50. Their test accuracy is reported below:
-built-from-scratch CNN: 10.6459%
-VGG16-based model:      44.6172%
-VGG19-based model:      74.4019%
-ResNet50-based model:   80.3827%
+- built-from-scratch CNN: 10.6459%
+- VGG16-based model:      44.6172%
+- VGG19-based model:      74.4019%
+- ResNet50-based model:   80.3827%
 
 
 
 ## Acknowledgements. 
-This project is provided by Udacity Data Scientist Nanodegree. 
+This project is provided by Udacity Data Scientist Nanodegree. Some parts of this readme file is from the Udacity project description and code. 
 
